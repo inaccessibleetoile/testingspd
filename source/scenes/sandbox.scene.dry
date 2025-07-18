@@ -78,15 +78,15 @@ on-arrival: chancellor = "Thälmann"; chancellor_party = "KPD"
 go-to: sandbox_menu
 
 @bruning-chan
-on-arrival: chancellor = "Brüning"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP
+on-arrival: chancellor = "Brüning"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP"
 go-to: sandbox_menu
 
 @wirth-chan
-on-arrival: chancellor = "Wirth"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP
+on-arrival: chancellor = "Wirth"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP"
 go-to: sandbox_menu
 
 @adenauer-chan
-on-arrival: chancellor = "Adenaur"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP
+on-arrival: chancellor = "Adenaur"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP"
 go-to: sandbox_menu
 
 @papen-chan
