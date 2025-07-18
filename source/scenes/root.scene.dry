@@ -1280,7 +1280,6 @@ Q.budget = 2;
 go-to: 1928_main
 
 @1928_challenge
-view-if: achievement_holy
 
 Here, you can test your skills.
 
