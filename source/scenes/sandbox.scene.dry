@@ -17,6 +17,7 @@ go-to: sandbox_menu
 - @edit_hindenburg_angry: Edit Hindenburg's Anger
 - @editresources: Edit Resources
 - @editbudget: Edit Budget
+- @editpro: Edit Nationalism and Support for the Republic
 - @editleftright: Edit Left/Right value of the DDP/DVP/LVP
 - @editcoaldissent: Edit Coalition Dissent
 - @editstrife: Edit Strife (Ability To Expand Reichsbanner Without Coalition Anger)
@@ -37,6 +38,39 @@ go-to: sandbox_menu
 - @editparamilitary: Edit Paramilitary Groups
 - @editreichswehr: Edit Reichswehr and Police
 - @root: Return to main
+
+@editpro
+
+- @editrepub: Raise or Decrease Support for the Republic
+- @editnation: Raise or Decrease Nationalism
+- @returnsandbox: Return to Sandbox
+
+@editrepub
+
+- @editrepubraise: Raise Support for the Republic
+- @editrepubdecrease: Decrease Support for the Republic
+- @returnsandbox: Return to Sandbox
+
+@editnation
+- @editnationraise: Increase Nationalism
+- @editnationdecrease: Decrease Nationalism
+- @returnsandbox: Return to Sandbox
+
+@editrepubraise
+on-arrival: pro_republic += 15
+go-to: editrepub
+
+@editrepubdecrease
+on-arrival: pro_republic -= 15
+go-to: editrepub
+
+@editnationraise
+on-arrival: nationalism += 15
+go-to: editnation
+
+@editnationdecrease
+on-arrival: nationalism -= 15
+go-to: editnation
 
 @editinternational
 
