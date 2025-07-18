@@ -52,6 +52,7 @@ go-to: sandbox_menu
 - @returnsandbox: Return to Sandbox
 
 @editnation
+
 - @editnationraise: Increase Nationalism
 - @editnationdecrease: Decrease Nationalism
 - @returnsandbox: Return to Sandbox
