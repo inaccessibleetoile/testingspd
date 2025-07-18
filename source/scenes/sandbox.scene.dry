@@ -14,6 +14,8 @@ go-to: sandbox_menu
 - @adopt_plan: Adopt Economic Plans
 - @time_skip: Skip One Month (More Than Once May Break Things)
 - @advisor_actions: Advisor Options
+- @edit_chancellor: Edit who is chancellor
+- @edit_president: Edit who is president
 - @edit_hindenburg_angry: Edit Hindenburg's Anger
 - @editresources: Edit Resources
 - @editbudget: Edit Budget
@@ -38,6 +40,32 @@ go-to: sandbox_menu
 - @editparamilitary: Edit Paramilitary Groups
 - @editreichswehr: Edit Reichswehr and Police
 - @root: Return to main
+
+@edit_chancellor
+go-to: sandbox_menu
+
+Placeholder
+
+// - @braun-chan: Make Otto Braun the Chancellor
+// - @noske-chan: Make Gustav Noske the Chancellor (Why would you do this, player?)
+// - treviranus-chan: Make Gottfried Treviranus the Chancellor
+// - @schleicher-chan: Make Kurt Von Schleicher the Chancellor
+// - @breitscheid-chan: Make Rudolf Breitscheid the Chancellor
+// - @goerdeler-chan: Make Carl Goerdeler the Chancellor (Why would you do this, player?)
+// - @thalmann-chan: Make Ernst Thälmann the Chancellor
+// - @nsdap-chan: Make the NSDAP have their Chancellor (Do you just want to lose, player?)
+// - @bruning-chan: Make Heinrich Brüning the Chancellor (Austerity ftw)
+// - @wirth-chan: Make Jospeh Wirth the Chancellor
+// - @adenauer-chan: Make Konrad Adenaur the Chancellor
+// - @papen-chan: Make Franz Von Papen the Chancellor
+// - @hitler-chan: Make Adolf Hitler the Chancellor (You will probably lose the game)
+// - @muller-chan: Make Hermann Müller the Chancellor
+// - @wels-chan: Make Otto Wels the Chancellor
+
+@edit_president
+go-to: sandbox
+
+Placeholder
 
 @editpro
 
