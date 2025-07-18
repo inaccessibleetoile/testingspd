@@ -44,23 +44,68 @@ go-to: sandbox_menu
 @edit_chancellor
 go-to: sandbox_menu
 
-Placeholder
+- @braun-chan: Make Otto Braun the Chancellor
+- @noske-chan: Make Gustav Noske the Chancellor (Why would you do this, player?)
+- treviranus-chan: Make Gottfried Treviranus the Chancellor
+- @schleicher-chan: Make Kurt Von Schleicher the Chancellor
+- @breitscheid-chan: Make Rudolf Breitscheid the Chancellor
+- @goerdeler-chan: Make Carl Goerdeler the Chancellor (Why would you do this, player?)
+- @thalmann-chan: Make Ernst Thälmann the Chancellor
+- @bruning-chan: Make Heinrich Brüning the Chancellor (Austerity ftw)
+- @wirth-chan: Make Jospeh Wirth the Chancellor
+- @adenauer-chan: Make Konrad Adenaur the Chancellor
+- @papen-chan: Make Franz Von Papen the Chancellor
+- @hitler-chan: Make Adolf Hitler the Chancellor (You will probably lose the game)
+- @muller-chan: Make Hermann Müller the Chancellor
+- @wels-chan: Make Otto Wels the Chancellor
 
-// - @braun-chan: Make Otto Braun the Chancellor
-// - @noske-chan: Make Gustav Noske the Chancellor (Why would you do this, player?)
-// - treviranus-chan: Make Gottfried Treviranus the Chancellor
-// - @schleicher-chan: Make Kurt Von Schleicher the Chancellor
-// - @breitscheid-chan: Make Rudolf Breitscheid the Chancellor
-// - @goerdeler-chan: Make Carl Goerdeler the Chancellor (Why would you do this, player?)
-// - @thalmann-chan: Make Ernst Thälmann the Chancellor
-// - @nsdap-chan: Make the NSDAP have their Chancellor (Do you just want to lose, player?)
-// - @bruning-chan: Make Heinrich Brüning the Chancellor (Austerity ftw)
-// - @wirth-chan: Make Jospeh Wirth the Chancellor
-// - @adenauer-chan: Make Konrad Adenaur the Chancellor
-// - @papen-chan: Make Franz Von Papen the Chancellor
-// - @hitler-chan: Make Adolf Hitler the Chancellor (You will probably lose the game)
-// - @muller-chan: Make Hermann Müller the Chancellor
-// - @wels-chan: Make Otto Wels the Chancellor
+@braun-chan
+on-arrival: spd_in_government = 1; chancellor = "Braun"; chancellor_party = "SPD"
+go-to: sandbox_menu
+
+@schleicher-chan
+on-arrival: chancellor = "Schleicher"; chancellor_party = "DNEF"
+go-to: sandbox_menu
+
+@breitscheid-chan
+on-arrival: spd_in_government = 1; chancellor = "Breitscheid"; chancellor_party = "SPD"
+go-to: sandbox_menu
+
+@goerdeler-chan
+on-arrival: chancellor = "Goerdeler"; chancellor_party = "I"
+go-to: sandbox_menu
+
+@thalmann-chan
+on-arrival: chancellor = "Thälmann"; chancellor_party = "KPD"
+go-to: sandbox_menu
+
+@bruning-chan
+on-arrival: chancellor = "Brüning"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP
+go-to: sandbox_menu
+
+@wirth-chan
+on-arrival: chancellor = "Wirth"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP
+go-to: sandbox_menu
+
+@adenauer-chan
+on-arrival: chancellor = "Adenaur"; chancellor_party = "Z" if z_party_name != "CVP"; chancellor_party = "CVP" if z_party_name == "CVP
+go-to: sandbox_menu
+
+@papen-chan
+on-arrival: chancellor = "Papen"; chancellor_party = "I"
+go-to: sandbox_menu
+
+@hitler-chan
+on-arrival: chancellor = nsdap_chancellor; chancellor_party = "NSDAP"
+go-to: sandbox_menu
+
+@muller-chan
+on-arrival: spd_in_government = 1; chancellor = "Müller"; chancellor_party = "SPD"
+go-to: sandbox_menu
+
+@wels-chan
+on-arrival: spd_in_government = 1; chancellor = "Wels"; chancellor_party = "SPD"
+go-to: sandbox_menu
 
 @edit_president
 go-to: sandbox
