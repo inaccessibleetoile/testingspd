@@ -1327,19 +1327,6 @@ Removed all neorevisionist strength.
 go-to: sandbox_menu
 
 
-@endalldissent
-on-arrival: {!
-Q.neorevisionist_dissent = 0;;
-Q.reformist_dissent = 0;
-Q.labor_dissent = 0;
-Q.center_dissent = 0;
-Q.left_dissent = 0;
-!}
-
-Removed all dissent.
-
-go-to: sandbox_menu
-
 @editironfront
 
 - @formironfront: Form The Iron Front
