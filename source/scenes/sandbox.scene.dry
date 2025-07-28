@@ -15,7 +15,7 @@ go-to: sandbox_menu
 - @time_skip: Skip One Month (More Than Once May Break Things)
 - @advisor_actions: Advisor Options
 - @edit_chancellor: Edit who is chancellor
-- @edit_president: Edit who is president
+- @braun_president: Make Otto Braun President, Article 48 FTW
 - @edit_hindenburg_angry: Edit Hindenburg's Anger
 - @editresources: Edit Resources
 - @editbudget: Edit Budget
@@ -104,7 +104,11 @@ go-to: sandbox_menu
 on-arrival: spd_in_government = 1; chancellor = "Wels"; chancellor_party = "SPD"
 go-to: sandbox_menu
 
-@edit_president
+@braun_president
+on-arrival: president = "Braun"
+
+Otto Braun is now President, have fun !
+
 go-to: sandbox
 
 Placeholder
