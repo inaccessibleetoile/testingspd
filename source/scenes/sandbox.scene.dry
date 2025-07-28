@@ -36,7 +36,6 @@ go-to: sandbox_menu
 - @editlabor: Edit Labor Faction of SPD
 - @editreformist: Edit Reformist Faction of SPD
 - @editneorevisionist: Edit Neorevisionist Faction of SPD
-- @endalldissent: End All Dissent in the Party
 - @editironfront: Edit Iron Front
 - @editparamilitary: Edit Paramilitary Groups
 - @editreichswehr: Edit Reichswehr and Police
