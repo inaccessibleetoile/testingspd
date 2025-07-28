@@ -36,6 +36,7 @@ go-to: sandbox_menu
 - @editlabor: Edit Labor Faction of SPD
 - @editreformist: Edit Reformist Faction of SPD
 - @editneorevisionist: Edit Neorevisionist Faction of SPD
+- @endalldissent: End All Dissent in the Party
 - @editironfront: Edit Iron Front
 - @editparamilitary: Edit Paramilitary Groups
 - @editreichswehr: Edit Reichswehr and Police
@@ -1324,6 +1325,22 @@ Removed all neorevisionist strength.
 
 @returnsandbox
 go-to: sandbox_menu
+
+
+@endalldissent
+on-arrival: 
+{!
+Q.neorevisionist_dissent = 0;
+Q.reformist_dissent = 0;
+Q.labor_dissent = 0;
+Q.center_dissent = 0;
+Q.left_dissent = 0;
+
+!}
+
+Removed all dissent.
+
+
 
 @editironfront
 
