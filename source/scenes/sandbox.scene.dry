@@ -42,7 +42,7 @@ go-to: sandbox_menu
 - @root: Return to main
 
 @edit_chancellor
-go-to: sandbox_menu
+
 
 - @braun-chan: Make Otto Braun the Chancellor
 - @schleicher-chan: Make Kurt Von Schleicher the Chancellor
